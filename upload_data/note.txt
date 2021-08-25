@@ -1,0 +1,48 @@
+﻿- hàm Object.keys(): Giá trị trả về là một chuỗi các chuỗi đại diện
+ cho tất cả các thuộc tính có thể đếm được của một đối tượng đã cho.
+- for/in: lặp qua các thuộc tính của một đối tượng.
+
+- hai đối tượng khác nhau khi các thuộc tính khác nhau, và không thể gán 
+giá trị của một thuộc tính cho đối tượng khi không có thuộc tính cần gán
+- muốn gán giá trị cho thuộc tính của 1 đối tượng thì đối tượng 
+cần gán phải có thuộc tính đó
+
+- Phương thức filter() dùng để tạo một mảng mới với tất cả
+ các phần tử thỏa điều kiện của một hàm test.
+- Khai báo mảng với các phần tử có các thuộc tính định nghĩa trước
+Ví dụ: 
++ resourceImages: { imageViewer: any, file: any, name: string }[] = [];
++ items: Array<{ title: string; note: string; icon: string }> = [];
+
+- Phương thức Object.defineProperty dùng để định nghĩa một thuộc tính cho một đối tượng
+https://developer.mozilla.org/vi/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
+
+- trong javascript có các kiểu dữ liệu kiểu mảng và kiểu object:
++ có thể truy cập phần từ của object bằng cách dùng dấu chấm hoặc truy cập giống mảng
+ví dụ: 
+let b = {user: "123"}
+let c = {"user": "123"}
+c["user"] hoặc c.user đều được
+
+- thêm thuộc tính tappable vào thẻ nào khác ngoài thẻ button hoặc thẻ link (a) để tăng tốc độ thực thi lên 300 mili giây,
+và khi rê chuột vào thì xuất hiện biểu tượng bàn tay
+
+- Thứ tự ưu tiên trong html & css: dùng directive trong thẻ html>đối tượng có thuộc tính important>đối tượng bình thường
+
+- cách lấy lại 1 lần commit nào đó trong github:
+1. git log: => xem key của những lần commit
+2. git checkout <key_muốn_lấy lại>
+
+- Cách sử dụng các thư viện snippet có sẵn để code cho nhanh
+1. Kích vào biểu tượng extensions
+2. Tìm và cài đặt các thư viện cần dùng: ví dụ: ionic...
+3. Kích vào mỗi thư viện để xem các snippet được định nghĩa
+4. Sử dụng snippet khi code sẽ làm tăng tốc độ code
+
+- Tạo ra các snippet cho riêng mình:
+1. File -> Reference/User Snippets
+2. Tạo ra các snippet cho riêng mình
+3. Sử dụng
+
+- Khai báo mảng đối tượng với các thuộc tính biết trước:
+items: Array<{ title: string; note: string; icon: string }> = [];
